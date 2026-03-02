@@ -1,0 +1,144 @@
+body{
+background-color: #a3cbd7;
+font-family: 'FortySeven Micro NBP', sans-serif;
+}
+ 
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1000px;
+margin: 0 auto;
+border: 1px solid #fff;
+padding: 3px;
+}
+ 
+#box{
+width: 1000px;
+background-color: #e0f6fc;
+color: #000;
+border: 1px solid #fff;
+}
+ 
+#header{
+margin-bottom: 10px;
+padding: 10px;
+border-bottom: 1px solid #66b3ff;
+background-image: linear-gradient(#b5e3ff, #66b3ff);
+color: #fff;
+letter-spacing: 3px;
+}
+ 
+#header h1{
+margin: 0px;
+}
+ 
+#sideLeft{
+float: left;
+width: 145px;
+padding: 0px 0px 5px 10px;
+overflow: hidden;
+}
+ 
+#sideRight{
+float: right;
+width: 145px;
+padding: 0px 0px 5px 10px;
+overflow: hidden;
+}
+ 
+.sidebox{
+border: 1px solid #66b3ff;
+margin: 0px 0px 5px 0px;
+}
+ 
+.sidecontent{
+padding: 0px 0px 0px 5px;
+color: #000e67;
+font-size: 12px;
+letter-spacing: 1px;
+}
+ 
+.sidecontent ul, li{
+margin: 0px;
+list-style-type: none;
+padding-left: 0px;
+}
+ 
+a{
+text-decoration: none;
+color: #66b3ff;
+}
+ 
+a:visited{
+color: #66b3ff;
+}
+ 
+a:hover{
+text-shadow: 0px 0px 2px #78beff;
+}
+ 
+#scrollcontainer{
+padding: 5px;
+}
+ 
+#scrolly{
+overflow: scroll;
+overflow-x: hidden;
+width: 110px;
+height:110px;
+border: 1px solid #66b3ff;
+margin: 0 auto;
+text-align: center;
+}
+ 
+#scrollyheader{
+margin: 0px;
+border-bottom: 1px dotted #66b3ff;
+}
+ 
+#main{
+justify-content: center;
+width: 600px;
+overflow: hidden;
+padding: 0px 10px 5px 0px;
+}
+ 
+.mainboxes{
+border: 1px solid #66b3ff;
+padding: 0px;
+margin: 0px 0px 5px 0px;
+}
+ 
+.subheader{
+background-image: linear-gradient(#b5e3ff, #66b3ff);
+border-bottom: 1px solid #66b3ff;
+padding: 3px;
+color: #fff;
+letter-spacing: 3px;
+}
+ 
+.subheader h3{
+margin: 0px;
+}
+ 
+.mainboxescontent{
+padding: 0px 15px 0px 15px;
+color: #1553c5;
+font-size: 17px;
+}
+ 
+#footer{
+clear: both;
+padding: 3px;
+border-top: 1px solid #66b3ff;
+background-image: linear-gradient(#b5e3ff, #66b3ff);
+color: #fff;
+font-size: 14px;
+}
+ 
+#footer p{
+margin: 0px;
+}
+
+ 
