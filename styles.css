@@ -34,7 +34,7 @@ a:hover, a:focus {
 
 .header {
     height: 150px;
-    background: linear-gradient(rgba(255, 246, 125, 0.152), rgba(180, 223, 199, 0.305)), url(../Professional_Personal_Site/assets/images/natfl009.jpg);
+    background: linear-gradient(rgba(255, 246, 125, 0.152), rgba(180, 223, 199, 0.305)), url(assets/images/natfl009.jpg);
     background-repeat: repeat;
 }
 
