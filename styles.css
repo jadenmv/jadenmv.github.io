@@ -4,11 +4,11 @@ body {
     background: #e5ffd7;
     line-height: 133%;
     font-size: 0.98em;
-    font-family: "Open Sans", "Droid Sans", "Calibri", sans-serif;
+    font-family: "Monaco", monospace;
 }
 
 h1, h2, h3 {
-    font-family: "Calibri";
+    font-family: "Monaco", monospace;
     color: #244336;
 }
 
@@ -19,6 +19,13 @@ p {
 a {
     color: rgb(49, 89, 30);
 }
+
+blockquote {
+  border-left: #80c86e 3px solid;
+  background: #f4ffe6ce;
+  padding: 0.1px 0.75rem;
+  margin: 0 1.5rem;
+  }
 
 a:hover, a:focus {
     color: #253a43;
@@ -64,50 +71,50 @@ a:hover, a:focus {
 
 /*sidebar boxes*/
 .sidebar {
-width: 320px;
-margin: 50px 0;
-position: absolute;
+    width: 320px;
+    margin: 50px 0;
+    position: absolute;
 }
 
 .sidebar h1 {
-font-size: 1.2rem;
-background: #80c86e;
-color: #fff;
-padding: 12px 10px 10px 10px;
-margin: auto;
+    font-size: 1.2rem;
+    background: #80c86e;
+    color: #fff;
+    padding: 12px 10px 10px 10px;
+    margin: auto;
 }
 
 .sidebar a {
-display: block;
-border-left: 3px solid #215729;
-background: #a0ce8a;
-padding: 5px;
-margin: 10px 0;
-color: #1c5039;
-text-decoration: none;
+    display: block;
+    border-left: 3px solid #215729;
+    background: #a0ce8a;
+    padding: 5px;
+    margin: 10px 0;
+    color: #1c5039;
+    text-decoration: none;
 }
 
 .sidebar a:hover, .sidebar a:focus {
-background: #d8f7a1;
-transition: ease-in 0.1s, ease-out 0.1s;
+    background: #d8f7a1;
+    transition: ease-in 0.1s, ease-out 0.1s;
 }
 
 .sidebar, .main {
-display: inline-block;
+    display: inline-block;
 }
 
 .main {
-margin: 50px 100px 50px 350px;
-width: auto;
-width: calc(100vw - 550px);
+    margin: 50px 100px 50px 350px;
+    width: auto;
+    width: calc(100vw - 550px);
 }
 
 
 .box {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .inner {
-background:  #fefff6;
-padding: 10px 25px;
+    background:  #fefff6;
+    padding: 10px 25px;
 }
